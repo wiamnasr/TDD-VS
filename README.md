@@ -1,4 +1,8 @@
 /\*
+
+Follow Along with the video: Introduction To Testing In JavaScript With Jest
+by: Web Dev Simplified: https://www.youtube.com/channel/UCFbNIlppjAuEX4znoulh0Cw
+Video-link: https://www.youtube.com/watch?v=FgnxcUQ5vho
 Unit-testing is when you test the smallest sections of your code
 
 Will use "Jest" for testing, a library in JS for testing:
