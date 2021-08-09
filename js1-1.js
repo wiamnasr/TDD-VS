@@ -87,4 +87,3 @@
 // console.log(greeting2);
 
 //console.log(); is not an output
-
