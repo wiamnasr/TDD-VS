@@ -8,8 +8,17 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
+  "description": "/\\* Unit-testing is when you test the smallest sections of your code",
   "devDependencies": {
     "jest": "^27.0.6"
-  }
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wiamnasr/TDD-VS.git"
+  },
+  "bugs": {
+    "url": "https://github.com/wiamnasr/TDD-VS/issues"
+  },
+  "homepage": "https://github.com/wiamnasr/TDD-VS#readme"
 }

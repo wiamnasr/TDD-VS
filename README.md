@@ -3,8 +3,9 @@ Unit-testing is when you test the smallest sections of your code
 
 Will use "Jest" for testing, a library in JS for testing:
 
-> > > > > > > > > > > > > > > > > > > > > > > > > > > > Installing Jest instructions<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-> > > > > > > > > > > > > > > > > > > > > > > > > > > > In Terminal, its important to make sure your code is running properly, its important to make sure your code is running properly: npm init -y //initialize jest with all default values
+-------- Installing Jest instructions ----------
+
+> In Terminal, its important to make sure your code is running properly, its important to make sure your code is running properly: npm init -y //initialize jest with all default values
 
 > > This gives us the starting point, "package.json" in the explorer
 
@@ -13,7 +14,8 @@ then run: npm i --save-dev jest //installs jest
 
 > > Reason why its saved as a development dependency, is because it will only be used in development to make sure everything runs
 
-> > > > > > > > > > > > > > > > > > > > > > > > > > > After Installation <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+---------- After Installation ----------
+
 > > > > > > > > > > > > > > > > > > > > > > > > > > > If you go to package.json where the test script (should be displaying: "test": "echo \"Error: no test specified\" && exit 1")
 > > > > > > > > > > > > > > > > > > > > > > > > > > > Change to: "test": "jest" || "test": "jest --coverge" // to get details abut how the test was run on each line of code
 
