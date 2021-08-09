@@ -16,11 +16,12 @@ then run: npm i --save-dev jest //installs jest
 
 ---------- After Installation ----------
 
-> > > > > > > > > > > > > > > > > > > > > > > > > > > If you go to package.json where the test script (should be displaying: "test": "echo \"Error: no test specified\" && exit 1")
-> > > > > > > > > > > > > > > > > > > > > > > > > > > Change to: "test": "jest" || "test": "jest --coverge" // to get details abut how the test was run on each line of code
+> If you go to package.json where the test script (should be displaying: "test": "echo \"Error: no test specified\" && exit 1")
+>
+> > Change to: "test": "jest" || "test": "jest --coverge" // to get details abut how the test was run on each line of code
 
-                                                            // Under "coverage > lcov-report > index.html": Also creates a .html file were you can open in the browser and visualize
-                                                            // Makes it easier to visualize how much of our code we tested
+    // Under "coverage > lcov-report > index.html": Also creates a .html file were you can open in the browser and visualize
+    // Makes it easier to visualize how much of our code we tested
 
 > > now in Terminal, run: npm test // this will run jest and run all of our test
 > > It will fail if you don't have any test set in place, so dont worry!
